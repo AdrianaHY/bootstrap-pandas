@@ -12,47 +12,46 @@
     <header class="container">
       <nav class=row>
         <ul class="nav nav-tabs">
-          <li role="presentation" class="active"><a href="#">Home</a></li>
-          <li role="presentation"><a href="#">Profile</a></li>
-          <li role="presentation"><a href="#">Messages</a></li>
+          <li role="presentation" class="active"><a href="#">Melies</a></li>
+          <li role="presentation"><a href="#">La magia</a></li>
+          <li role="presentation"><a href="#">Animación</a></li>
         </ul>
       </nav>
     </header>
 
-    <section class="container espacio">
+    <section id="fotos" class="container espacio">
       <div class="row">
         <div class="col-md-3">
           <img src="assets/melies1.jpg" alt="">
-          <button type="button" class="close" aria-hidden="true">&times;</button>
+          <span class="close">&times;</span>
         </div>
         <div class="col-md-3">
           <img src="assets/melies2.jpg" alt="">
-          <button type="button" class="close" aria-hidden="true">&times;</button>
+          <span class="close">&times;</span>
         </div>
         <div class="col-md-3">
           <img src="assets/melies3.jpg" alt="">
-          <button type="button" class="close" aria-hidden="true">&times;</button>
+          <span class="close">&times;</span>
         </div>
         <div class="col-md-3">
           <img src="assets/melies4.jpg" alt="">
-          <button type="button" class="close" aria-hidden="true">&times;</button>
+          <span class="close">&times;</span>
         </div>
       </div>
     </section>
 
-    <section class="container">
-      <ul class="nav nav-tabs">
-        <li role="presentation" class="active"><a href="#">Home</a></li>
-        <li role="presentation"><a href="#">Profile</a></li>
-        <li role="presentation"><a href="#">Messages</a></li>
-      </ul>
-    </section>
 
-    <section class="container">
+
+    <section  id="parrafos" class="container">
       <div class="row">
+        <ul id="botones" class="nav nav-tabs col-md-12">
+          <li role="presentation" class="active"><a href="#" id="botonUno">Historia</a></li>
+          <li role="presentation"><a id="botonDos" href="#">Filmografía</a></li>
+          <li role="presentation"><a id="botonTres" href="#">Restaurar fotos</a></li>
+        </ul>
         <div class="col-md-6">
-          <h3>Historia</h3>
-          <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          <h3 class="espacio color">Historia</h3>
+          <p id="parrafoUno"class="espacio color">  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
          ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -61,8 +60,8 @@
           mollit anim id est laborum.</p>
         </div>
         <div class="col-md-6">
-          <h3>Filmografía</h3>
-          <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          <h3 class="espacio color">Filmografía</h3>
+          <p id="parrafoDos"class="espacio color">  Lorem ipsum dolor sit amet, consectetur adipisicing elit,
          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
          ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -72,8 +71,17 @@
         </div>
       </div>
     </section>
+
+    <footer class="container">
+      <div class="row">
+        <p>© 2016 Company, Inc.</p>
+      </div>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js">
+
+    </script>
   </body>
 </html>
