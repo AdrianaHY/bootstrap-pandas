@@ -1,6 +1,8 @@
 body{
   margin: 0;
   padding:0;
+  background: #FFFF95;
+  font-family: 'Baloo', cursive;
 }
 img{
   width:100%;
@@ -9,25 +11,25 @@ img{
   padding-top: 3%;
 }
 nav{
-  background: #3D1255;
+  background: #55BA55;
   color:#764b8e;
 }
 #fotos{
-  background: #CD88AF;
+  background: #FFF;
 }
 #botones{
-  background: #261758;
+  background: #B2D964;
 }
 #parrafos{
-  background: #661141;
+  background: #FFF;
 }
 .color{
-  background: #CD88AF;
+  background: #6B6B16;
   color:#fff;
   text-align: center;
 }
 footer{
-  background: #13073a;
+  background: #125612;
   padding:1%;
   color:#fff;
   text-align: center;
